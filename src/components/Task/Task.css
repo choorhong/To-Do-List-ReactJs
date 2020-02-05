@@ -1,0 +1,44 @@
+.item {
+  margin: 5px auto;
+  width: 70%;
+  /* height: 30px; */
+  border-radius: 0.25rem;
+}
+
+.item-grey {
+    background-color: rgba(108, 117, 125, 0.5)
+}
+
+.task {
+  display: inline-flex;
+  width: 70%;
+  margin: 5px 10px;
+  word-break: break-all;
+  text-align: left;
+  box-sizing: border-box
+
+;}
+
+.incompleteTask {
+  font-weight: bold;
+}
+
+.completedTask {
+  cursor: pointer;
+  width: 65%;
+  text-decoration: line-through;
+}
+
+img {
+  cursor: pointer;
+
+  height: 20px;
+  width: 20px;
+}
+
+img:hover {
+  cursor: pointer;
+
+  height: 25px;
+  width: 25px;
+}
