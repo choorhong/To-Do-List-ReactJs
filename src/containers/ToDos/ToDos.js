@@ -9,8 +9,9 @@ class ToDos extends Component {
       { id: 2, task: "Water the plant", done: true },
       {
         id: 3,
-        task:
-          "Meeting with James, Jonathan, Merry (Grumpy all the time, wrong name), Nicholas, Raymond, Sean, Maggie, HR Department, and all sorts of non-sense folks who just I am lazy to name. Lol",
+        task: `Meeting with James, Jonathan, Merry >>> 2Q 2020 Sales Projection). 
+          Nicholas from Finance Dep might join in. 
+          5 sets of printout needed. Hectic Hectic Hectic`,
         done: false
       }
     ]
@@ -36,7 +37,7 @@ class ToDos extends Component {
 
   render() {
     let { todos } = this.state;
-    console.log(todos);
+    // console.log(todos);
     todos = todos.map((todo, index) => {
       return (
         <Task
