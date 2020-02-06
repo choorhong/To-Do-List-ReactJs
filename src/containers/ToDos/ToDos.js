@@ -53,6 +53,7 @@ class ToDos extends Component {
 
     return (
       <React.Fragment>
+        <h1>Lazy Bum List</h1>
         <InputArea additem={this.additem} />
         <div>{todos}</div>
       </React.Fragment>
